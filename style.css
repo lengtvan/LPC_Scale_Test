@@ -61,7 +61,7 @@ body {
 .row13 {
     display: flex;
     justify-content: flex-end;
-    align-items: stretch;
+    align-items: stretch !important;
 
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 #reset {
-    align-self: stretch;
+    align-self: stretch !important;
 }
 
 #result {
