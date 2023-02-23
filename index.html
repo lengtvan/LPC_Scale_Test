@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator App</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="display"></div>
+        <div id="container2">
+            <div class="row row1">
+                <div class="word-wrapper">
+                    <span>Unpleasant</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber1(8)">8</button>
+                </div>
+                <div class="word-wrapper">
+                    <span>Pleasant</span>
+                </div>
+
+            </div>
+            <div class="row row2">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber2(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+
+            </div>
+            <div class="row row3">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber3(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+
+            </div>
+            <div class="row row4">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber4(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <!-- row 5 -->
+            <div class="row row5">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber5(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+
+            <!-- row 6 -->
+            <div class="row row6">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber6(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+
+            <!-- row 7 -->
+            <div class="row row7">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber7(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row8">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber8(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row9">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber9(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row10">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber10(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row11">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber11(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row12">
+                <div class="word-wrapper">
+                    <span>Tense</span>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(1)">1</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(2)">2</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(3)">3</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(4)">4</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(5)">5</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(6)">6</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(7)">7</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="addNumber12(8)">8</button>
+                </div>
+                <div class="word-wrapper"><span>Relaxed</span></div>
+            </div>
+            <div class="row row13">
+                <div class="button-wrapper">
+                    <button class="button" id="reset" onclick="reset()">Reset</button>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button" onclick="equal()">Show result</button>
+                </div>
+                <div class="word-wrapper">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
