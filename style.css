@@ -45,7 +45,7 @@ body {
     background-color: #fff;
     color: #e61e2a;
     border-radius: 5px;
-    min-height: 20px;
+    min-height: 30px;
     width: 100%;
     font-weight: 700;
 }
@@ -65,9 +65,15 @@ body {
 
 }
 
+#end-test {
+    display: flex;
+    align-items: stretch !important;
+}
+
 .row13 .button {
     background-color: #e61e2a;
     color: #fff;
+
 }
 
 #reset {

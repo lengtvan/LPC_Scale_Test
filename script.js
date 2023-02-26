@@ -231,6 +231,7 @@ const reset = () => {
     num12 = 0;
     numF = 0
     display.innerHTML = "";
+    result.innerHTML = "";
 };
 const equal = () => {
     result.innerHTML = ""
